@@ -1,12 +1,17 @@
-namespace UnityGame.Plugins;
+using System;
+using System.Threading.Tasks;
 
-public interface INetwork
+namespace TagGame.Plugins
 {
-    event Action<string> OnMessageReceived;
 
-    void SendMessage(string message);
+    public interface INetwork
+    {
+        event Action<string> OnMessageReceived;
 
-    Task StartListening();
-    
-    void StopListening();
+        void SendMessage(string message);
+
+        Task StartListening();
+
+        void StopListening();
+    }
 }
