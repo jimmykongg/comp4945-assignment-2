@@ -1,3 +1,7 @@
+Game is a dodging game - spheres fall from the sky, and you control a cube. If your cube gets hit you die.
+
+Put Scripts + Prefabs into Assest folder. I think it should run - if it doesn't, copy steps below.
+
 Create Scripts and Prefabs folder inside Assets
 
 PlayerCube:
